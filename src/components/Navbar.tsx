@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
           <a href="#home" className="hover:text-teal-400 transition-colors">Home</a>
         </li>
         <li>
-          <a href="#about" className="hover:text-teal-400 transition-colors">About</a>
+          <a href="#aboutme" className="hover:text-teal-400 transition-colors">About</a>
         </li>
         <li>
           <a href="#projects" className="hover:text-teal-400 transition-colors">Projects</a>
@@ -72,8 +72,8 @@ const Navbar: React.FC = () => {
           {/* Smaller Download CV Button for Mobile */}
           <li className="mt-4">
             <a
-              href="/path/to/your/cv.pdf" // Replace with the actual path to your CV
-              download="Steven_Juve_CV.pdf" // File name for download
+              href="/images/cv.pdf" 
+              download="Steven_Juve_CV.pdf" 
               className="bg-black border-amber-500 text-white py-2 px-4 rounded-md font-body text-sm hover:bg-amber-500 hover:text-white hover:border-amber-500 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
